@@ -159,3 +159,114 @@ body {
     line-height: 21px;
     margin-bottom: 0;
 }
+
+/*подвал сайта*/
+footer {
+    min-width: 320px;
+    margin-top: 80px;
+    background-color: #262626;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+.footer-logo {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+
+.footer-logo img {
+    height: 20px;
+}
+
+.footer-menu {
+    padding: 40px 0 15px 0;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+
+.lang-block {
+    background-color: #3B3B3B;
+    width: 230px;
+    position: relative;
+}
+
+.lang {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 25px 12px 55px;
+    cursor: pointer;
+    width: 230px;
+    top: 0;
+}
+
+.lang:focus {
+    outline: none;
+}
+
+.lang-block:before {
+    content: url("img/world.png");
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    margin: 12px 16px;
+}
+
+.social {
+    padding: 40px 0;
+}
+
+.ue span {
+    color: #49A144;
+}
+
+.ue {
+    font-size: 16px;
+}
+
+.social-img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.social a:hover {
+    text-decoration: none !important;
+}
+
+.item-content p {
+    margin: 0 0 23px 0;
+}
+
+.footer-menu a,
+.footer-privacy a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-menu a:hover,
+.footer-privacy a:hover {
+    text-decoration: underline;
+}
+
+.download {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+}
+
+.download img {
+    height: 40px;
+    margin: 0 20px;
+    opacity: 0.5;
+}
+
+.download img:hover {
+    opacity: 1;
+}
+
+.footer-privacy {
+    padding: 40px 0 15px 0;
+    font-size: 11px;
+}

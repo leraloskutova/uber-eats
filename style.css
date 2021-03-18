@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 992px;
+    min-width: 320px;
+}
+
+/*навигационное меню*/
+.navbar {
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    background-color: #FFFFFF;
+    min-width: 320px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar-buttons {
+    height: 40px;
+    margin: 16px 0;
+    display: flex;
+    float: right;
+}
+
+.logo {
+    margin: 30px 0;
+    height: 12px;
+}
+
+/*кнопка "Войти"*/
+.sign-in {
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 13px;
+    padding: 14px 20px;
+    border-radius: .1rem;
+    line-height: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.sign-in:focus, .sign-in:hover {
+    outline: none;
+}
+
+.sign-in:hover {
+    background-color: rgba(117, 117, 117, 0.04);
+    cursor: pointer;
+}
+
+.sign-in:active {
+    border: 1px solid #bfbfbf;
+}
+
+/*кнопка "Basket"*/
+.basket {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+}
+
+.basket:focus, .basket:hover {
+    outline: none;
+}
+
+.basket:hover {
+    border: 1px solid #E0E0E0;
+    cursor: pointer;
+    color: white;
+}
+
+.basket:active {
+    border: 1px solid #bfbfbf;
+}
+
+/*поиск*/
+.search {
+    margin-top: 32px;
+}
+
+.form-search {
+    border-bottom: 1px solid #757575;
+    opacity: 0.3;
+    padding-top: 21px;
+}
+
+.form-search input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.form-search input:focus, .form-search input:hover {
+    outline: none;
+}
+
+/*список ресторанов*/
+.title {
+    margin-top: 56px;
+    line-height: 34px;
+    font-size: 22px;
+    color: #1D1D1D;
+    font-weight: normal;
+}
+
+.list {
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin: 0 -8px !important;
+}
+
+.card-link {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    margin-top: 16px;
+}
+
+.card-content {
+    padding-bottom: 20px;
+}
+
+.card-content:hover {
+    background-color: rgba(117, 117, 117, 0.04);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    color: #1D1D1D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.card-text {
+    color: #626262;
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+.card-time {
+    color: #1D1D1D;
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 21px;
+    margin-bottom: 0;
+}

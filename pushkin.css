@@ -1,0 +1,236 @@
+/*страница Трактир "Пушкин"*/
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*главное фото*/
+.main-photo {
+    background: url("img/Пушкин/main-photo.png") center no-repeat;
+    background-size: cover;
+    height: 364px;
+    min-width: 320px;
+}
+
+.main-photo .row {
+    margin: 0 !important;
+}
+
+/*информация о ресторане*/
+.name {
+    margin-top: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    padding: 38px 38px !important;
+    text-align: center;
+}
+
+.name-title {
+    font-size: 36px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 62px;
+}
+
+.name-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-text {
+    font-size: 14px;
+    color: #626262;
+}
+
+.name-time {
+    font-size: 13px;
+    color: #FFFFFF;
+    background-color: #262626;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+@media (max-width: 576px) {
+    .main-photo {
+        height: 255px;
+    }
+
+    .name {
+        margin-top: 130px;
+        border-radius: 2px;
+        padding: 24px 24px !important;
+    }
+
+    .name-title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .name-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-time {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+}
+
+/*разделы меню*/
+.restaurant-menu {
+    padding: 30px 0;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.restaurant-menu a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #626262;
+    margin-right: 40px;
+}
+
+.restaurant-menu a:hover {
+    color: #327430;
+}
+
+#menu-active {
+    color: #327430;
+    font-weight: bold;
+}
+
+/*меню раздела*/
+.menu-title {
+    margin: 56px 0 32px 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.menu-card {
+    padding: 0 !important;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.menu-card:hover {
+    background-color: rgba(117, 117, 117, 0.04);
+    cursor: pointer;
+}
+
+.menu-card-body {
+    margin: 16px 0 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-card-title {
+    font-size: 16px;
+    color: #1D1D1D;
+    line-height: 24px;
+}
+
+hr {
+    display: none;
+}
+
+.menu-card-text {
+    font-size: 13px;
+    color: #626262;
+    line-height: 21px;
+    margin: 4px 0 0 0 !important;
+}
+
+.menu-card-price {
+    font-size: 15px;
+    color: #1D1D1D;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.menu-card-image {
+    width: 170px;
+    height: 160px;
+}
+
+.menu-card-image img {
+    border-radius: 2px;
+    width: 170px;
+    height: 160px;
+}
+
+@media (max-width: 992px) {
+    .menu-card {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .restaurant-menu {
+        display: none;
+    }
+
+    .menu-title {
+        text-align: center;
+    }
+
+    hr {
+        margin-top: -20px;
+        margin-bottom: 40px;
+        display: block;
+        width: 50px;
+        background: #757575;
+        color: #757575;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-title {
+        text-align: center;
+        margin: 112px 0 56px 0;
+    }
+
+    .menu-card {
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        margin-bottom: 16px;
+    }
+
+    .menu-card-body {
+        margin: 0 0 15px 0;
+    }
+
+    .menu-card-title {
+        font-size: 14px;
+    }
+
+    .menu-card-image {
+        width: 102px;
+        height: 102px;
+    }
+
+    .menu-card-image img {
+        width: 102px;
+        height: 102px;
+    }
+}
+
+@media (max-width: 380px) {
+    .menu-card-title {
+        font-size: 14px;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+footer {
+    margin-top: 30px !important;
+}
